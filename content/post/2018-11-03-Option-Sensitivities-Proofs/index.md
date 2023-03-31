@@ -19,7 +19,7 @@ image:
   preview_only: false
 ---
 
-The following is an general overview of vanilla options partial sensitivities (option greeks). This series will be a continuation of the project *Option Payoffs, Black-Scholes, and the Greeks.* We've already outlined the necessary terms for understanding Options and the Greeks [here](https://kidquant.com/project/option-payoffs-black-scholes-and-the-greeks/). In this post, I will be covering the first greek: Detla ($\Delta$).
+The following is an general overview of vanilla options partial sensitivities (option greeks). This series will be a continuation of the project *Option Payoffs, Black-Scholes, and the Greeks.* We've already outlined the necessary terms for understanding Options and the Greeks [here](https://socraticallystephie.com/project/option-payoffs-black-scholes-and-the-greeks/). In this post, I will be covering the first greek: Detla ($\Delta$).
 
 The delta of an option, $\Delta$, is defined as the rate of change of the option price respected to the rate of change of the underlying asset price:
 

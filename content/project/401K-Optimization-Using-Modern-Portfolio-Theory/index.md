@@ -378,4 +378,4 @@ There is a lot going on in this project, however, we've only really scratched th
 
 ### Github Code
 
-Click here for the full [github code](https://github.com/Hedgology/401K-Optimization-Using-Modern-Portfolio-Theory/blob/master/401K%20Optimization%20Using%20Modern%20Portfolio%20Theory.ipynb) and explanations
+Click here for the full [github code](https://github.com/SocraticallyStephanie/Quant-Finance/blob/main/Research/401K%20Optimization%20Using%20Modern%20Portfolio%20Theory.ipynb) and explanations
