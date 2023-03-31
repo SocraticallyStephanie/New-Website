@@ -237,7 +237,7 @@ We first initially created a list of stock prices using the list comprehension i
 
 Each plot will have its long and short counterparts, respectively. The x-axis list potential range of underlying price, while the y-axis lists the potential range of option payoffs.
 
-![Options Payoffs](/post/images/options_payoffs.png)
+![Options Payoffs](options_payoffs.png)
 
 As one can see, with a long call, the minimum loss will never be greater than 10 dollars. With a strike of 100 dollars, the underlying would need to go north of 110 dollars for you to make a profit. This is known as the "break-even" point. The inverse is true for long puts, as profit increases when the underlying decreases in value.
 
@@ -284,7 +284,7 @@ def BS_put(S, K, r, vol, T, t):
 
 We can now examine the potential payoff based on the Black-Scholes formula. We'll create a stock range from 0 to 30. We can assume that our strike is 50; our risk-free rate will be 10%, expected volatility will be 20%; the time to expiry will be 10 (t = 0; T = 10).
 
-![Black Scholes](/post/images/bs_payoff_put_call.png)
+![Black Scholes](bs_payoff_put_call.png)
 
 As you saw from the plots we've previously made, there was a linear relationship, as the only variables we considered was the payoff and the premium. Using BSM, there are more variables to consider; therefore, there is a curvature with the following models.
 
