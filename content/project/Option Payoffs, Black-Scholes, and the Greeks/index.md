@@ -433,4 +433,4 @@ Vega operates in a very interesting fashion; whereas the sensitivity to Vega inc
 
 ### Github Code
 
-Click here for the full [github code](https://github.com/Hedgology/Options-Payoffs-Black-Scholes-Greeks) and explaionations.
+Click here for the full [github code](https://github.com/SocraticallyStephanie/Quant-Finance/blob/main/Tutorials/Option%20Payoffs%2C%20Black-Scholes%2C%20and%20the%20Greeks.ipynb) and explaionations.
