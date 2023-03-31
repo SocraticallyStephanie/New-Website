@@ -81,7 +81,7 @@ However, if one is going to argue that police have no role in maintaining safe s
 
 ## Sources
 
-[<a name="1">1</a>] [Kid Quant | Replicating the data from this post](/post/images/Notebooks/police_v_education.html)
+[<a name="1">1</a>] [Stephanie Wu | Replicating the data from this post](https://github.com/SocraticallyStephanie/Economics/blob/main/Research/Police%20vs%20Teachers%20Spending.ipynb)
 
 [<a name="2">2</a>] [Federal Reserve Economic Database (FRED)](https://fred.stlouisfed.org/)
 

@@ -42,7 +42,7 @@ What does this mean for GME? Does this imply that r/WallStreetBets have moved on
 
 ## Getting the Information from Reddit
 
-I began by navigating to r/WallStreetBets. My original plan was to build this similiar to the news media webscraper algorithm for a data science project that I've done [[2](#2)]. One of the issues with using that algorithm is being able to infinitely scrolling reddit and scraping the new information.
+I began by navigating to r/WallStreetBets. My original plan was to build this similiar to the news media webscraper algorithm. One of the issues with using that algorithm is being able to infinitely scrolling reddit and scraping the new information.
 
 Rather than using pagination to reveal additional results, Reddits makes an async call to fetch additional posts as you scroll down the page. This means that when we make our requests, we'll be able to scrape data from the ~20 or so posts but won't access additional data by requesting the next page.
 
@@ -72,7 +72,7 @@ reddit = praw.Reddit(
     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
 )
 ```
-PRAW is actually easy to work with. PRAW stands for Python Reddit API Wrapper, which allows you to easily read and write data to the website. You start out by configuring an instance of Reddit, which requires the `client_id` and `client_secret` we'll you'll set up your authorized applications [[3](#3)].
+PRAW is actually easy to work with. PRAW stands for Python Reddit API Wrapper, which allows you to easily read and write data to the website. You start out by configuring an instance of Reddit, which requires the `client_id` and `client_secret` we'll you'll set up your authorized applications [[2](#2)].
 
 The API also requires something called a "User Agent." A user agent is a line of text that helps servers' identify who is requesting information from the website hosted on their server. Any popular user agent will do; however, you can find out your user agent by simply asking Google. The script shows precisely what yours should look like.
 
@@ -98,7 +98,7 @@ The query only returned 388 rows of information, although we requested at most 1
 
 Now we need to analyze the data, which is the most complex part of the script. We'll need to use some regular expressions, which will allow python to check a specific sequence of characters to match or find a set of strings, in our case, tickers or the company names. Python has a native package for this, know as `re`.
 
-We will loop through our data frame and utilize a key/value pair while iterating in this process. The key will be the words we are looking for in the post, while the value will be the frequency of the number of times certain words (in this case, tickers or companies) appear in each post. While we are doing this, we will also disregard the use of commonly-used terms, or filler words, in each of the posts. For those familiar with the Natural Language Processing techniques we used for analyzing media bias, the method is somewhat similar. [[5](#5)]
+We will loop through our data frame and utilize a key/value pair while iterating in this process. The key will be the words we are looking for in the post, while the value will be the frequency of the number of times certain words (in this case, tickers or companies) appear in each post. While we are doing this, we will also disregard the use of commonly-used terms, or filler words, in each of the posts.
 
 ```python
 regex = re.compile('[^a-zA-Z ]')
@@ -142,7 +142,7 @@ stonks_df
 ```
 ![Result](02.PNG)
 
-It's interesting to see Macy's on this list, considering that the retailer is practically on its deathbed (although, I did write about how clothing accessories and apparel have experienced the largest sales growth post-lockdown, so maybe not) [[6](#6)]. 
+It's interesting to see Macy's on this list, considering that the retailer is practically on its deathbed (although, I did write about how clothing accessories and apparel have experienced the largest sales growth post-lockdown, so maybe not) [[3](#3)]. 
 
 Macy's doesn't appear to involve the same factors that sparked the AMC/GME buying frenzy -- vigorously pumping up stocks for companies that are relatively undervalued by the market -- doesn't necessarily apply to all stocks that have piqued the interests of r/WallStreetBets. Of course, you can't be considered "day-traders" if there is a rhyme or reason as to why you make certain trades by not others.
 
@@ -152,12 +152,6 @@ I don't really have a dog in this fight (although, in full disclosure, I am bear
 
 [<a name="1">1</a>] [Associated Press | 'Meme stocks' go mainstream: There's now a fund for that](https://apnews.com/article/meme-stocks-buzz-fund-wall-street-c1b1086d9b4de2e69a9c790c97dd10e6)
 
-[<a name="2">2</a>] [Kidquant | Analyzing News Articles With Python](https://kidquant.com/project/analyzing-news-articles-python/)
+[<a name="2">2</a>] [Reddit | Develop your Reddit Application](https://www.reddit.com/prefs/apps)
 
-[<a name="3">3</a>] [Reddit | Develop your Reddit Application](https://www.reddit.com/prefs/apps)
-
-[<a name="4">4</a>] [NASDAQ | Stock Screener](https://www.nasdaq.com/market-activity/stocks/screener)
-
-[<a name="5">5</a>] [KidQuant | Analyzing New Articles With Python](https://www.nasdaq.com/market-activity/stocks/screener)
-
-[<a name="6">6</a>] [KidQuant | Analyzing the Impact of COVID-19 on Retail](https://kidquant.com/post/2020-08-15-covid-impact-retail-sales/)
+[<a name="3">3</a>] [NASDAQ | Stock Screener](https://www.nasdaq.com/market-activity/stocks/screener)
