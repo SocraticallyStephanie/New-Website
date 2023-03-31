@@ -83,12 +83,12 @@ With a little help of Python, the Modern Portfolio Theory can help us establish 
 
 We can start by important the necessary packages for this project. `numpy` allows us to conduct numerical computation on python arrays and dataframes, while `pandas` allows us to manipulate dataframes easily. Considering that we'll be using dataframes of asset prices, this module will be essential.
 
-The module `fix_yahoo_finance` will allow us to extract the necessary asset price information from the Yahoo Finance API (provided that it still works from the time this is read by the view). `matplotlib` is used for visualizations, which we will use for illustrate MPT.
+The module `yfinance` will allow us to extract the necessary asset price information from the Yahoo Finance API (provided that it still works from the time this is read by the view). `matplotlib` is used for visualizations, which we will use for illustrate MPT.
 
 ```python
 import pandas as pd
 import numpy as np
-import fix_yahoo_finance as yf
+import yfinance as yf
 import matplotlib.pyplot as plt
 import scipy.optimize as sco
 
