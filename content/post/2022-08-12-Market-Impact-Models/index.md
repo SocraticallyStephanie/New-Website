@@ -16,7 +16,7 @@ summary: Clarifying transaction cost and how they impact algorithm performace.
 
 featured: true
 reading_time: true
-draft: true
+draft: false
 
 markup: mmark
 
