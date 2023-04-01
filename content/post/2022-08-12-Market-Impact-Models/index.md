@@ -42,9 +42,9 @@ Slippage is when the price 'slips' before the trade is fully executed, leading t
 
 ### Transaction Cost Impact on Portfolio Performance
 
-Let’s consider a hypothetical mid-frequency statistical arbitrage* portfolio. We will assume that our holding period is one week with 100 million dollars in AUM, with 2x leverage. At 2 times leverage, on 100 million in AUM, we trade 20 billion dollars per year.
+Let’s consider a hypothetical mid-frequency statistical arbitrage portfolio. We will assume that our holding period is one week with 100 million dollars in AUM, with 2x leverage. At 2 times leverage, on 100 million in AUM, we trade 20 billion dollars per year.
 
-For this level of churn, what is the impact of 1 bps of execution cost to the fund's returns? For every basis point (0.01%) of transaction cost we lost 2% off algo performance.
+Every single basis point (0.01%) of transaction cost translates into a 2% reduction of the algorithm's performance.
 
 We can capture this effect with the following code:
 
@@ -64,7 +64,7 @@ print perf_impact(leverage=2, turnover=0.4, trading_days=252, txn_cost_bps=1)
 ```
 ### How do institutional quant trading teams evaluate transaction cost?
 
-Quant teams typically utilize execution to complete orders fully while minimizing the cost of execution. To achieve this goal, main orders are often split into smaller orders and routed to different execution venues to capture all the available liquidity and minimize the bid-ask spread. The parent-level execution price can be expressed as the volume-weighted average price of all child orders.
+Quant teams typically utilize execution to complete orders fully while minimizing the cost of execution. To achieve this goal, main orders are often split into smaller orders and routed to different execution venues to capture all the available liquidity and minimize the bid-ask spread. The parent-level execution price can be expressed as the volume-weighted average price (VWAP) of all child orders.
 
 We are going to use the following trading benchmarks:
 
@@ -85,9 +85,11 @@ $$
 Key Ideas:
 
 * **Execution Price** - volume-weighted average price of all fills or child orders
-* **Cost vs Arrival Price** - difference between the arrival price and the execution price, expressed in basis points. The idea with this benchmark is to compare the execution price against the decision price of the strategy. This cost is sometimes called "slippage" or "implementation shortfall"
+* **Cost vs Arrival Price** - difference between the arrival price and the execution price, expressed in basis points. 
 
-Reversal metrics give us an indication of the temporary impact after the order has been executed. Generally, we'd expect the stock price to revert upon our order completion, as our contribution to the buy-sell imbalance is reflected in the market. The momentum metrics give us an indication of the direction of price drift before execution. Trading with significant momentum often affects our ability to minimize the bid-ask spread costs.
+The Cost vs. Arrival benchmark compares the execution price against the decision price of the strategy. This cost is sometimes called "slippage."
+
+The temporary impact of the executed order is measured by the reversion metric. Typically, the stock price is expected to revert upon completion of the given order. However, the momentum metrics give us an indication of the direction of the price before execution. Trading with significant momentum often affects our ability to minimize the bid-ask spread costs.
 
 When executing an order, one of the primary tradeoffs to consider is timing risk vs. market impact:
 
@@ -354,5 +356,13 @@ plt.legend();
 
 
 ## References
+
+
+
+[<a name="1">1</a>] [Almgren, R., Thum, C., Hauptmann, E., & Li (2005) | Direct estimation of equity market impact. Risk, 18(7), 5862](https://www.google.com/search?q=Direct+estimation+of+equity+market+impact.&rlz=1C1UEAD_enUS962US962&oq=Direct+estimation+of+equity+market+impact.&aqs=chrome..69i57j0i22i30j0i390i650l2.676j0j7&sourceid=chrome&ie=UTF-8)
+
+[<a name="2">2</a>] [Bennett, C. and Gil, M.A. (2012) | Measuring Historic Volatility, Santander Equity Derivatives Europe](http://www.todaysgroep.nl/media/236846/measuring_historic_volatility.pdf)
+
+[<a name="3">2</a>] [Garman, M. B., & Klass, M. J. (1980) | On the estimation of security price volatilities from historical data. Journal of business, 67-78](https://www.jstor.org/stable/2352358)
 
 [<a name="4">4</a>] [Securities And Exchange Commission | 17 CFR Parts 200, 240, 242, 249, and 270 ](https://www.sec.gov/rules/final/34-51808.pdf)
