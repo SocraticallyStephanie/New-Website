@@ -1,6 +1,6 @@
 ---
 title: "Market Impact Models"
-date: "2022-09-03T00:00:00Z"
+publishDate: "2022-09-03T00:00:00Z"
 
 authors:
 - admin
@@ -20,7 +20,6 @@ draft: false
 
 markup: mmark
 
-feature: true
 
 image:
   placement: 2
