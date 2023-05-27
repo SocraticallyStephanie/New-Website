@@ -17,7 +17,7 @@ summary: Time Series analysis using stock market data and machine learning.
 
 featured: true
 reading_time: true
-draft: true
+draft: false
 
 markup: mmark
 
