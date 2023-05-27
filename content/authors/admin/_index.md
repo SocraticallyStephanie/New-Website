@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Stephanie Wu 吳恩達
+title: Stephanie Wu 吳珊妮
 
 # Full name (for SEO)
 first_name: Stephanie
