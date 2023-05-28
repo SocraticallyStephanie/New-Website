@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: The Pretty Quant # Website name
-baseURL: 'https://socraticallystephie.com/' # Website URL
+baseURL: 'https://prettyquant.com/' # Website URL
 
 ############################
 ## LANGUAGE
