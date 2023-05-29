@@ -15,9 +15,9 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "code"
+  icon = "superscript"
   icon_pack = "fas"
-  name = "Programming"
+  name = "Mathematics"
 
 
 [[feature]]
@@ -41,9 +41,9 @@ subtitle = ""
   name = "Machine Learning"
 
 [[feature]]
-  icon = "search-dollar"
+  icon = "building"
   icon_pack = "fas"
-  name = "Corporate Valuation"
+  name = "Real Estate"
 
 
 

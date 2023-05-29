@@ -32,6 +32,7 @@ interests:
   - Programming
   - Real Estate
   - Data Science
+  - Pretty Charts
 
 # Education to show in About widget
 education:
