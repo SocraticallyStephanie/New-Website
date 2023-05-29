@@ -1,6 +1,6 @@
 ---
 title: "Kalman Filters From Scratch"
-publishDate: "2022-09-03T00:00:00Z"
+publishDate: "2022-10-11T00:00:00Z"
 
 authors:
 - admin
