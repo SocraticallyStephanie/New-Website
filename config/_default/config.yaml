@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: The Pretty Quant # Website name
+title: Pretty Quant # Website name
 baseURL: 'https://prettyquant.com/' # Website URL
 
 ############################
