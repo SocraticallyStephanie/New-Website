@@ -12,7 +12,7 @@ categories:
 tags:
 - Statistics
 
-summary: 
+summary: Why are a distribution's moments called "moments"? What other moments are there, besides the mean and the variance? We will discuss this here.
 
 featured: true
 reading_time: true
@@ -26,7 +26,7 @@ image:
   preview_only: false
 ---
 
-Sometimes mean and variance are not enough to describe a distribution. When we calculate variance, we square the deviations around the mean. In the case of large deviations, we do not know whether they are likely to be positive or negative. This is where the skewness and symmetry of a distribution come in. A distribution is symmetric if the parts on either side of the mean are mirror images of each other. For example, the normal distribution is symmetric. The normal distribution with mean, $\mu$, and standard deviation, $\sigma$, is defined as
+Sometimes mean and variance are not enough to describe a distribution. When we calculate variance, we square the deviations around the mean. In the case of large deviations, we do not know whether they are likely to be positive or negative. This is where the skewness and symmetry of distribution come in. A distribution is symmetric if the parts on either side of the mean are mirror images. For example, the normal distribution is symmetric. The normal distribution with mean, $\mu$, and standard deviation, $\sigma$, is defined as
 
 $$f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$$
 
