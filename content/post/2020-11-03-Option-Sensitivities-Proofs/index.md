@@ -1,6 +1,6 @@
 ---
 title: 'Option Sensitivities, Formula Proofs, and Python Scripts: Part 1 (Delta)'
-date: "2018-11-03T00:00:00Z"
+date: "2020-11-03T00:00:00Z"
 authors:
 - admin
 
@@ -10,7 +10,7 @@ categories:
 
 featured: true
 reading_time: true
-draft: false
+draft: true
 
 markup: mmark
 

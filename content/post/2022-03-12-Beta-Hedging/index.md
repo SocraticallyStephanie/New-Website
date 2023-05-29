@@ -1,6 +1,6 @@
 ---
 title: "The Importance of Beta Hedging (Part 1)"
-publishDate: "2022-01-16T00:00:00Z"
+publishDate: "2022-03-16T00:00:00Z"
 
 authors:
 - admin
