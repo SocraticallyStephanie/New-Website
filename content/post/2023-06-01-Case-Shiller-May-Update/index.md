@@ -37,12 +37,6 @@ From S&P:
 >
 > After seasonal adjustment, the U.S. National Index posted a month-over-month increase of 0.4%, while the 10-City Composite gained 0.6% and 20-City Composites posted an increase of 0.5%.
 
-
-## Sources
-
-[<a name="1">1</a>] [S&P Global | S&P Corelogic Case-Shiller Index Rebound Countinued in March](https://www.spglobal.com/spdji/en/index-announcements/article/sp-corelogic-case-shiller-index-rebound-continued-in-march/)
-
-
 The Composite 10 index is up 0.6% in March (SA) and down 3.7% from the recent peak in June 2022. The Composite 20 index is up 0.5% (SA) in March and down 4.2% from the recent peak in June 2022. The National index is up 0.4% (SA) in March and is down 2.3% from the peak in June 2022.
 
 ![Case-Shiller Comp](casehsiller_comp.png)
@@ -58,3 +52,7 @@ In March, the months-of-supply was at 2.6 months, and the Case-Shiller National 
 ![Case-Shiller Comp](inventoryvsprices.png)
 
 The March report was mostly for contracts signed in the November through February period and was likely boosted by somewhat lower rates in the December through February period.
+
+## Sources
+
+[<a name="1">1</a>] [S&P Global | S&P Corelogic Case-Shiller Index Rebound Countinued in March](https://www.spglobal.com/spdji/en/index-announcements/article/sp-corelogic-case-shiller-index-rebound-continued-in-march/)
