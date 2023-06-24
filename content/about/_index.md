@@ -26,7 +26,6 @@ Pretty Quant aims to education and demystifies misconceptions regarding the quan
 **Quantitative Finance** is the design and implementation of mathematical models used for pricing assets (including derivative products), assessing risk, and predicting market movements. This is important for financial institutions, especially banks, as they consistently take risks by making loans or buying assets and wish to be compensated for that risk.
 
 
-
 Quant finance aims to make financial institutions more profitable, but not in the traditional ways of finance. "Business finance" is based on financial theory and the traditional Time Value of Money. It's more artistic, the models and the assumptions are more simplistic, and the mathematics isn't any more rigorous than anything you would have taken in elementary school. On the other hand, quant finance attempts to approach finance from a more scientific perspective, by utilizing Mathematics, Probability & Statistics, and Computer Science, with a bit of financial theory.
 
 Also, the traditional finance route usually involves getting a Finance, Accounting, or Economics degree during your undergrad, then pursuing an MBA or an MS in either Finance or Economics, or opting for professional certificates such as the CFA or CPA. However, an advanced degree in traditional finance is usually optional and reserved for people entering highly competitive industries, such as Investment Banking. 
