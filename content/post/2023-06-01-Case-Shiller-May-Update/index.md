@@ -26,9 +26,9 @@ image:
 
 S&P and Case-Shiller released the monthly Home Price Indices for March. January closing prices include some contracts signed in November, so this data has a significant lag.
 
-![Case-Shiller NA](casena.png)
+The Month-over-Month (MoM) increase in the SA Case-Shiller Index was 0.42%. This was the second increase following seven consecutive declines [[1](#1)].
 
-The Month-over-Month (MoM) increase in the SA Case-Shiller Index was 0.42%. This was the second increase following seven consecutive declines.
+![Case-Shiller NA](casena.png)
 
 On a seasonally adjusted basis, prices declined monthly in 5 of 20 Case-Shiller cities. The most significant monthly declines seasonally adjusted were in Seattle (-0.9%), Phoenix (-0.4%), and Las Vegas (-0.4%). Seasonally adjusted, Seattle has fallen 12.5% from the peak in May 2022, and San Francisco is down 11.3% from the peak. 19 of 20 cities have seen price declines from the recent peak (SA). Chicago is the exception.
 
